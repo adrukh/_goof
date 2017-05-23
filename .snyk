@@ -1,0 +1,17 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - tap > codecov.io > request > hawk:
+        patched: '2017-05-23T11:21:02.484Z'
+  'npm:marked:20170112':
+    - marked:
+        patched: '2017-05-23T11:21:02.484Z'
+  'npm:ms:20170412':
+    - morgan > debug > ms:
+        patched: '2017-05-23T11:21:02.484Z'
+  'npm:request:20160119':
+    - tap > codecov.io > request:
+        patched: '2017-05-23T11:21:02.484Z'
